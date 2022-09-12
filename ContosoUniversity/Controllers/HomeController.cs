@@ -1,9 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using MVCDemo.Filters;
-using MVCDemo.Models;
+﻿using ContosoUniversity.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace MVCDemo.Controllers
+namespace ContosoUniversity.Controllers
 {
     public class HomeController : Controller
     {
@@ -14,16 +13,6 @@ namespace MVCDemo.Controllers
             _logger = logger;
         }
 
-        
-        public IActionResult Helo(string name, string loc, string contact)
-        {
-            ViewBag.Name = name;
-            ViewBag.Location = loc;
-            ViewBag.Contact = contact;
-            return View();
-        }
-
-        [MyLog]
         public IActionResult Index()
         {
             return View();
@@ -33,8 +22,6 @@ namespace MVCDemo.Controllers
         {
             return View();
         }
-
-
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
