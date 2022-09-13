@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppDETAug2022", "WebAppD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCDemo", "MVCDemo\MVCDemo.csproj", "{AE1D3908-1D87-495F-82C8-A7F0A364F635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoUniversity", "ContosoUniversity\ContosoUniversity.csproj", "{EED594A6-2FDF-48FF-B888-7B310699F2F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoUniversity", "ContosoUniversity\ContosoUniversity.csproj", "{EED594A6-2FDF-48FF-B888-7B310699F2F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIDemo", "APIDemo\APIDemo.csproj", "{766A28F7-4C29-40D2-A5E2-94048DB06EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppClient", "ConsoleAppClient\ConsoleAppClient.csproj", "{D7DD046D-9885-4108-94FD-3E86A63A045B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi", "TodoApi\TodoApi.csproj", "{A1B22E19-D6B2-465F-997B-D35D69602393}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{EED594A6-2FDF-48FF-B888-7B310699F2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EED594A6-2FDF-48FF-B888-7B310699F2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EED594A6-2FDF-48FF-B888-7B310699F2F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766A28F7-4C29-40D2-A5E2-94048DB06EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766A28F7-4C29-40D2-A5E2-94048DB06EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766A28F7-4C29-40D2-A5E2-94048DB06EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766A28F7-4C29-40D2-A5E2-94048DB06EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7DD046D-9885-4108-94FD-3E86A63A045B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7DD046D-9885-4108-94FD-3E86A63A045B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7DD046D-9885-4108-94FD-3E86A63A045B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7DD046D-9885-4108-94FD-3E86A63A045B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B22E19-D6B2-465F-997B-D35D69602393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B22E19-D6B2-465F-997B-D35D69602393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B22E19-D6B2-465F-997B-D35D69602393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B22E19-D6B2-465F-997B-D35D69602393}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
