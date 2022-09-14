@@ -11,8 +11,8 @@ using TodoApi.Data;
 namespace TodoApi.Migrations
 {
     [DbContext(typeof(TodoApiContext))]
-    [Migration("20220913130013_new2")]
-    partial class new2
+    [Migration("20220914035708_ini")]
+    partial class ini
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
