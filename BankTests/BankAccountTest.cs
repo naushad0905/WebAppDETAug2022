@@ -3,7 +3,7 @@ using BankAccountNS;
 namespace BankTests
 {
     [TestClass]
-    public class BankAccountTests
+    public class BankAccountTest
     {
         [TestMethod]
         public void TestMethod1()
